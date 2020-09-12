@@ -1,0 +1,27 @@
+{
+  "name": "com.full",
+  "displayName": "Full",
+  "version": "1.0.0",
+  "description": "Full application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Scorpion",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.0.0",
+    "cordova-plugin-whitelist": "git+https://github.com/apache/cordova-plugin-whitelist.git#r1.0.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    }
+  },
+  "dependencies": {
+    "properties-parser": "^0.3.1"
+  }
+}
